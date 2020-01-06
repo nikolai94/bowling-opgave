@@ -1,0 +1,6 @@
+Jan 06, 2020 11:26:14 AM mylogger.MyLogger writeToLogFile
+INFO: GET: {"points":[[3,4],[10,0],[1,3],[0,0]],"token":"7GOfgOwmBIAVUsyTcrDCiALKX3s9Al3O"}
+Jan 06, 2020 11:26:14 AM mylogger.MyLogger writeToLogFile
+INFO: Check this sum: [7, 21, 25, 25]
+Jan 06, 2020 11:26:15 AM mylogger.MyLogger writeToLogFile
+INFO: POST: {"success":true,"input":[7,21,25,25]}
