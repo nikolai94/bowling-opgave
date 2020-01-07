@@ -1,5 +1,5 @@
 # Bowling opgave
-Hejsa
+Hejsa.
 Selve algoritmen til at beregne bowling score'n er i class'en [Calculate](https://github.com/nikolai94/bowling-opgave/blob/master/src/main/java/Calculate.java).
 
 ## How to run this project
