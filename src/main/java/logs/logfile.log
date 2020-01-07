@@ -4,3 +4,45 @@ Jan 06, 2020 11:26:14 AM mylogger.MyLogger writeToLogFile
 INFO: Check this sum: [7, 21, 25, 25]
 Jan 06, 2020 11:26:15 AM mylogger.MyLogger writeToLogFile
 INFO: POST: {"success":true,"input":[7,21,25,25]}
+Jan 06, 2020 11:36:24 AM mylogger.MyLogger writeToLogFile
+INFO: GET: {"points":[[2,8],[2,0],[4,6],[2,2],[1,5],[9,1],[8,2],[7,3]],"token":"T3ElH6sjHPENFm2T1F2UWqvPOiMq5T1b"}
+Jan 06, 2020 11:36:24 AM mylogger.MyLogger writeToLogFile
+INFO: Check this sum: [12, 14, 26, 30, 36, 54, 71, 81]
+Jan 06, 2020 11:36:25 AM mylogger.MyLogger writeToLogFile
+INFO: POST: {"success":true,"input":[12,14,26,30,36,54,71,81]}
+Jan 06, 2020 11:49:32 AM mylogger.MyLogger writeToLogFile
+INFO: GET: {"points":[[4,4],[10,0],[4,2],[1,6],[10,0],[4,5],[1,9],[8,0],[1,3],[5,2]],"token":"WLdlJof23429cIN4l2xAgWKOlA5ZuGbN"}
+Jan 06, 2020 11:49:33 AM mylogger.MyLogger writeToLogFile
+INFO: Check this sum: [8, 24, 30, 37, 56, 65, 83, 91, 95, 102]
+Jan 06, 2020 11:49:33 AM mylogger.MyLogger writeToLogFile
+INFO: POST: {"success":true,"input":[8,24,30,37,56,65,83,91,95,102]}
+Jan 07, 2020 10:35:13 AM mylogger.MyLogger writeToLogFile
+INFO: GET: {"points":[[7,1],[9,0],[2,2],[9,1],[9,1],[2,7]],"token":"9LC8RoYo6IJnoyL7VO9aZYyBMxU5onxb"}
+Jan 07, 2020 10:35:13 AM mylogger.MyLogger writeToLogFile
+INFO: Check this sum: [8, 17, 21, 40, 52, 61]
+Jan 07, 2020 10:35:14 AM mylogger.MyLogger writeToLogFile
+INFO: POST: {"success":true,"input":[8,17,21,40,52,61]}
+Jan 07, 2020 10:40:56 AM mylogger.MyLogger writeToLogFile
+INFO: GET: {"points":[[3,1],[5,5],[2,7],[4,4],[1,8],[10,0],[9,1],[3,6]],"token":"2RJmwmCG26Wbflefu1W8C1CT0Unoggpk"}
+Jan 07, 2020 10:40:56 AM mylogger.MyLogger writeToLogFile
+INFO: Check this sum: [4, 16, 25, 33, 42, 62, 75, 84]
+Jan 07, 2020 10:40:57 AM mylogger.MyLogger writeToLogFile
+INFO: POST: {"success":true,"input":[4,16,25,33,42,62,75,84]}
+Jan 07, 2020 10:55:08 AM mylogger.MyLogger writeToLogFile
+INFO: GET: {"points":[[3,3]],"token":"sbCLlUvEisY7RukAmMtdSE4fiqgYfIbu"}
+Jan 07, 2020 10:55:08 AM mylogger.MyLogger writeToLogFile
+INFO: Check this sum: [6]
+Jan 07, 2020 10:55:09 AM mylogger.MyLogger writeToLogFile
+INFO: POST: {"success":true,"input":[6]}
+Jan 07, 2020 11:43:50 AM mylogger.MyLogger writeToLogFile
+INFO: GET: {"points":[[10,0],[10,0],[10,0],[10,0],[10,0],[10,0],[10,0],[10,0],[10,0],[10,0],[10,10]],"token":"82ZHCdG5MbZw37Eb3OVPqYM9F6Ehhduf"}
+Jan 07, 2020 11:43:50 AM mylogger.MyLogger writeToLogFile
+INFO: Check this sum: [30, 60, 90, 120, 150, 180, 210, 240, 270, 300]
+Jan 07, 2020 11:43:50 AM mylogger.MyLogger writeToLogFile
+INFO: POST: {"success":true,"input":[30,60,90,120,150,180,210,240,270,300]}
+Jan 07, 2020 11:50:11 AM mylogger.MyLogger writeToLogFile
+INFO: GET: {"points":[[2,7],[2,3],[2,1],[1,2],[4,2],[2,1],[4,4]],"token":"ztGiy3QxQhf0AdYgwITuMiSlBQ7tMIJN"}
+Jan 07, 2020 11:50:11 AM mylogger.MyLogger writeToLogFile
+INFO: Check this sum: [9, 14, 17, 20, 26, 29, 37]
+Jan 07, 2020 11:50:11 AM mylogger.MyLogger writeToLogFile
+INFO: POST: {"success":true,"input":[9,14,17,20,26,29,37]}

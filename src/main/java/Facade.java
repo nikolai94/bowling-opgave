@@ -25,7 +25,7 @@ public class Facade {
         this.myLogger = myLogger;
         this.getList = new GetList(this.myLogger);
         this.postList = new PostList(this.myLogger);
-        //for testing
+        //for testing - local
         //this.url = "http://192.168.33.22/skat?get";
         this.url = "http://13.74.31.101/api/points";
     }
@@ -50,14 +50,13 @@ public class Facade {
         return getList.GetBowlingPointsList(url);
     }
 
-    private int[] calcScore(Frame[] frames ){
+    private int[] calcScore(Frame[] frames){
         Calculate calculate = new Calculate(frames);
         return calculate.calculateSum();
     }
 
     private boolean postResult(String token, int[] result){
-        //TODO change url:
-        // Test url http://192.168.33.22/skat/index.php?post
+        // Test local - url http://192.168.33.22/skat/index.php?post
         return postList.validateBowlingSum(token, result, url);
     }
 

@@ -5,17 +5,18 @@ public class Calculate {
     private Frame[] frames;
     private int totalScore;
     private int fullPoints = 10;
+    private int maxScore = 300;
 
 
     public Calculate(Frame[] frames) {
         this.frames = frames;
         this.totalScore = 0;
     }
-    
-    public int[] calculateSum(){
 
+    public int[] calculateSum(){
+        int tmpSum;
         for(int i = 0; i < frames.length; i++){
-            int tmpSum = 0;
+            tmpSum = 0;
 
             if(isStrike(frames[i])) tmpSum = calcSumStrike(i);
 
@@ -27,19 +28,19 @@ public class Calculate {
 
             totalScore += tmpSum;
             frames[i].setSum(totalScore);
+
+            if(totalScore == maxScore) return createIntArrForSums(i+1);
+
         }
 
-        return createIntArrForSums();
+        return createIntArrForSums(frames.length);
     }
 
-    private int[] createIntArrForSums(){
-        int countFrameArr = frames.length;
-        int[] sumArr = new int[countFrameArr];
-        int count = 0;
+    private int[] createIntArrForSums(int arrayLength){
+        int[] sumArr = new int[arrayLength];
 
-        for(Frame f : frames){
-            sumArr[count] = f.getSum();
-            count++;
+        for (int i = 0; i < arrayLength; i++){
+            sumArr[i] = frames[i].getSum();
         }
         return sumArr;
     }
@@ -53,16 +54,17 @@ public class Calculate {
             int firstRoll = 0;
             int secondRoll = 0;
 
+            //Take points from next frame = index+1
             firstRoll = frames[index+1].getFirstRoll();
-            //check if this is a strike
+            //check if this is not a strike.
             if(firstRoll != 10) secondRoll = frames[index+1].getSecondRoll();
             else{
                 //check that this index is not the last index
                 if(frames.length > (index + 2)) secondRoll = frames[index+2].getFirstRoll();
+                else secondRoll = frames[index+1].getSecondRoll();
             }
             sum = frames[index].getFirstRoll();
             sum += (firstRoll + secondRoll);
-            //System.out.println("Index: "+ index + " ::: Sum"+ sum);
             return sum;
         }
 
